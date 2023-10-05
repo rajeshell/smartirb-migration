@@ -1,0 +1,4 @@
+file,source table, target table
+user.js,user,user 
+country.js,country,country
+state.js,state,state
