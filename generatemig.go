@@ -43,10 +43,6 @@ func main() {
 	}
 	defer pgDB.Close()
 
-	// migrationFile := os.Args[1]
-	// table := os.Args[2]
-	// targetTable := os.Args[3]
-
 	file, err := os.Open("migrationlist.csv")
 	if err != nil {
 		fmt.Println("Error:", err)
